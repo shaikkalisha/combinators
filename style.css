@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{   
+    margin: 0%;
+    color: red;
+    font-size: 20px;
+   
+}
+.nondiv{
+    background-color: green!important;
+    text-align: center;
+    color: white;
+    border: 1px solid grey;
+    
+}
+
+.sec1{
+    width: 100%;
+    height: 150px!important;
+    border-bottom: 1px solid grey;
+    background-color:whitesmoke;
+}
+.sec1 header{
+    width: 30%;
+    background-color:transparent;
+    float: left;
+
+    
+
+}
+.sec1 nav{
+    width: 70%;
+    background-color:transparent;
+    float: left;
+    text-align: center;
+    padding: 50px;
+   
+    
+}
+.sec1 nav:hover{
+	transition-duration:0.5s;
+	border-radius: 15px;
+    font-size: 60px;
+}
+
+	
+article{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+ 
+.sec2{
+    width: 60%;
+    float:left;
+    padding: 10px;
+    text-align: justify;
+
+}
+.sec3{
+    width: 40%;
+  float: right;
+  padding: 4.1px;
+  background-color: lightgray;
+  text-align: justify;
+border: 1px solid grey!important;
+    
+}
+.sec4{
+    width:100%;
+    height:auto;
+    background-color: bisque;
+
+}
+.sec4 div{
+    width:25%;
+    float:right;
+    text-align: center; 
+    background-color: limegreen;
+
+
+}
+.sec4 div:hover{
+    box-shadow: 2px 2px ;
+    transition-duration: 2s;
+    background-color: brown;
+    color: green;
+    
+}
+
+footer{
+    background-color:dimgrey;
+    width: 100%;
+    height:auto;
+}
+.sec5{
+    width:50%;
+    float:left;
+    padding:40px
+}
+footer iframe{
+    width: 50%;
+    padding: 40px;
+}
